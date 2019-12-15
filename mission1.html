@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Tropicana Cinemas</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<link rel="stylesheet" href="bootstrap4/css/bootstrap.css" />
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+	
+		<script src="scripts/jquery.js" ></script>
+		<script src="bootstrap4/js/bootstrap.js"></script>
+		
+		<style>
+			.navbar 
+			{
+				padding: 0px 70px;
+				z-index: 9999;
+				border: 0;
+				font-size: 15px !important;
+				border-radius: 0;
+				font-family: 'Roboto', sans-serif;
+				
+			}
+			.navbar-nav li a:hover, .navbar-nav li.active a
+			{
+				color: goldenrod !important;
+			}
+			.navbar-toggler
+			{
+				border-color: transparent;
+			}
+			.jumbotron
+			{
+				font-family: 'Roboto', sans-serif;
+				background-color: #474e5d;
+				color: white;
+				letter-spacing: 1px;
+				
+			}
+			#movieinfo
+			{
+				padding-bottom: 30px;
+			}
+			#footsect
+			{
+				background-color: #2f2f2f; /* Black Gray */
+				color: #ffffff;
+			}
+			#footrow
+			{
+				padding: 20px 0px;
+			}
+			.websitelinks a
+			{
+				text-decoration: none;
+				color: #ffffff;
+			}
+		</style>
+	</head>
+	<body>
+			<nav class="navbar navbar-expand-md navbar-light navbar-fixed-top">
+			  <!-- Logo -->
+			  <a class="navbar-brand" href="index.html">
+				<img src="images/logo.png" alt="Logo" width="250" height="60">
+			  </a>
+			  
+			  <!-- Toggler/collapsibe Button -->
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  
+			  <!-- Links -->
+			  <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+			  <ul class="navbar-nav">
+				<li class="nav-item">
+				  <a class="nav-link" href="index.html">HOME</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="index.html.#nowshowing">NOW SHOWING</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="index.html.#comingsoon">COMING SOON</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="pricing.html">PRICING</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="about.html">ABOUT</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="contact.html">CONTACT</a>
+				</li>
+			  </ul>
+			  </div>
+			</nav>
+		
+		<div class="jumbotron jumbotron-fluid">
+			<h3 class="pl-5">MISSION : IMPOSSIBLE - FALLOUT</h3>
+		</div>
+	
+		<div class="container-fluid" id="movieinfo">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="images/mission-impossible-fallout-poster-405x600.jpg" />
+				</div>
+				<div class="col-md-3">
+					<p> Genre : Action, Adventure </p>
+					<p> Cast : Tom Cruise, Alex Baldwin </p>
+					<p> Language : English </p>
+					<p> Release Date : 15 July, 2018 </p>
+					<p> Duration : 2hrs 30mins </p>
+				</div>
+				<div class="col-md-5">
+					<h4 style="color:#0994dd;">SYNOPSIS</h4>
+					<p> 
+						Ethan Hunt and the IMF team join forces with CIA assassin August Walker to prevent a 
+						disaster of	epic proportions. Arms dealer John Lark and a group of terrorists known as the Apostles
+						plan to use three plutonium cores for a simultaneous nuclear attack on the Vatican, Jerusalem and Mecca,
+						Saudi Arabia. When the weapons go missing, Ethan and his crew find themselves in a desperate race against
+						time prevent them falling into the wrong hands.
+					</p>
+					
+					<h4 style="color:#0994dd;">SHOWTIME</h4>
+					<p> Monday : 4:00PM - 6:30PM</p>
+					<p> Tuesday : 4:00PM - 6:30PM </p>
+					<p> Wednesday : 4:00PM - 6:30PM</p>
+					<p> Thursday : 4:00PM - 6:30PM </p>
+					<p> Friday : 4:00PM - 6:30PM </p>
+				</div>
+			</div>
+		</div>
+		<!-- Bottom Contacts Section -->
+		<footer id="footsect">
+			<div class="container-fluid">
+				<div id="footrow" class="row">
+					<div class="col-md-4 col-xs-12">
+						<div class="footer-logo">
+							<a href="#">
+								<img src="images/logo.png" alt="Logo" width="220" height="71">
+							</a>
+						</div>
+					
+						<div class="social ">
+							<h4>Connect With Us</h4>
+							<p><a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a></p>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-xs-12">
+						<div class="websitelinks">
+							<h4>Tropicana</h4>
+							<p>
+								<a href="about.html">About</a><br>
+								Help<br>
+								FAQS<br>
+								<a href="pricing.html">Ticket Prices</a>
+							</p>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-xs-12">
+						<div>
+								<h4 class="amy-title amy-widget-title">Contact Us</h4>
+								<div class="address">
+									<p><i class="fa fa-map-marker" aria-hidden="true"></i> Tropicana Cinemas, Rivers, Nigeria</p>
+								</div>
+								<div class="email">
+									<p><i class="fa fa-envelope-o" aria-hidden="true"></i> feedback@tropicanacinemas.com</p>
+								</div>
+								<div class="phone">
+									<p><i class="fa fa-phone" aria-hidden="true"></i> +2347012655677</p>
+								</div>
+						</div>
+					</div>
+				</div>	
+			</div>		
+		</footer>
+	</body>
+</html>
